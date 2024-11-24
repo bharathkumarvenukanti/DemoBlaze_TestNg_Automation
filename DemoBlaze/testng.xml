@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="DemoBalze Automation Test Suite">
+<listeners><listener class-name="com.demoblaze.listeners.CustomListeners"></listener></listeners>
+  <test name="DemoBlaze Automation">
+    <classes>
+    <class name="com.demoblaze.tests.DemoBlazeHomepageTest"></class>
+    <class name=" com.demoblaze.tests.DemoBlazeSignUpTest"></class>
+    <class name="com.demoblaze.tests.DemoBlazeLoginTest"></class>
+    <class name="com.demoblaze.tests.DemoBlazeProductInfoTest"></class>
+    <class name="com.demoblaze.tests.DemoBlazeCartTest"></class>
+    <class name="com.demoblaze.tests.DemoBlazePaymentInfoTest"></class>
+    </classes>
+  </test> <!-- DemoBlaze Automation -->
+</suite> <!-- DemoBalze Automation Test Suite -->
